@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Lenovo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-01 05:35:32 PM"/>
+        <attribute name="created" value="TGVub3ZvO0RBTkVORC1TTElNNUk7MjAyNC0wMy0wMTswNDowMzozMCBQTTsyNzk5"/>
+        <attribute name="edited" value="TGVub3ZvO0RBTkVORC1TTElNNUk7MjAyNC0wMy0wMTswNTozNTozMiBQTTszOzI5MTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Masukan Massa: &quot;" newline="True"/>
+            <declare name="Massa" type="Real" array="False" size=""/>
+            <input variable="Massa"/>
+            <output expression="&quot;Masukan tinggi: &quot;" newline="True"/>
+            <declare name="Tinggi" type="Real" array="False" size=""/>
+            <input variable="Tinggi"/>
+            <output expression="&quot;Masukan Gravitasi:&quot;" newline="True"/>
+            <declare name="gravitasi" type="Real" array="False" size=""/>
+            <input variable="gravitasi"/>
+            <declare name="EnergiPotensial" type="Real" array="False" size=""/>
+            <assign variable="EnergiPotensial" expression="Massa * Tinggi * gravitasi"/>
+            <output expression="&quot;Hasil nya adalah: &quot;" newline="True"/>
+            <output expression="EnergiPotensial" newline="True"/>
+            <output expression="&quot;Joule&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
